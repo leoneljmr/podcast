@@ -2090,7 +2090,7 @@ input, select, textarea {
 		}
 
 		.icon.styleLeo {
-			color: #00f0ff;
+			color: #76ddff;
 			font-size: 30px;
 		}
 
@@ -2132,6 +2132,13 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+		}
+
+		.image.small {
+			
+			border-radius: 4px;
+			padding: 5px;
+			width: 50px;
 		}
 
 			.image.fit img {
