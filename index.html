@@ -162,7 +162,7 @@
 					<section  class="wrapper style5 ">
 						<div class="inner">
 							<h4>Escríbanos</h4>
-							<form method="post" data-netlify="true">
+							<form name="escribanos" method="post" data-netlify="true"  netlify-honeypot="bot-field">
 								<div class="row gtr-uniform">
 									<div class="col-6 col-12-xsmall">
 										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Nombre" />
@@ -179,10 +179,7 @@
 											
 										</select>
 									</div>								
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-human" name="demo-human" checked>
-										<label for="demo-human">No soy un robot</label>
-									</div>
+									
 									<div class="col-12">
 										<textarea name="demo-message" id="demo-message" placeholder="Escríbanos su mensaje..." rows="6"></textarea>
 									</div>
@@ -191,6 +188,9 @@
 											<li><input type="submit" value="Enviar" class="primary" /></li>
 											<li><input type="reset" value="Limpiar" /></li>
 										</ul>
+									</div>
+									<div style="visibility: hidden;">
+										<input type="input" id="bot-field" name="bot-field" />
 									</div>
 								</div>
 							</form>
