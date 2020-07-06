@@ -113,9 +113,7 @@
 								a ser complejos o confusos. No queremos buscar en ella algo que<br />confirme lo que pensamos, queremos volver a abrirla, leerla sin prejuicios
 								y entenderla.<br /> <strong>Queremos Re-Descubrir la Biblia</strong></p>
 								<h2><i><cite class="rtBibleRef" title="Salmos 19">Salmos 19</cite></i></h2>
-								<!-- <a class="rtBibleRef" href="https://biblia.com/bible/rvr60/Gal%205.20-21" data-reference="Gal 5.20-21" data-version="rvr60" data-purpose="bible-reference" target="_blank"></a>
-								<a class="rtBibleRef" >Galatians 5:20-21</a>
- -->
+								<!--<cite class="rtBibleRef" title="Psalm 19"></cite>-->
 
 							</header>
 							<ul class="features">
@@ -241,12 +239,14 @@
 			<script>
 				var refTagger = {
 					settings: {
-						bibleVersion: "RVR60"			
+						bibleVersion: "RVR60",
+						noSearchTagNames: [],
+						socialSharing: ["twitter","facebook"]
 					}
 				};
 				(function(d, t) {
 					var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-					g.src = "https://api.reftagger.com/v2/RefTagger.es.js";
+					g.src = "//api.reftagger.com/v2/RefTagger.js";
 					s.parentNode.insertBefore(g, s);
 				}(document, "script"));
 			</script>
